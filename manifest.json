@@ -2,14 +2,14 @@
   "manifest_version": 2,
   "applications": {
     "gecko": {
-      "id": "sogo-connector@inverse.ca",
+      "id": "sogo-connector@lhub.social",
       "strict_min_version": "78.0"
     }
   },
-  "name": "SOGo Connector",
-  "description": "A DAV plugin for keeping addressbooks and events in sync",
+  "name": "Konektor SOGo dla Lhub.Social",
+  "description": "Plugin DAV do synchronizacji kalendarzy, zadań i książek adresowych na Lhub.Social",
   "version": "78.0.0",
-  "default_locale": "en-US",
+  "default_locale": "pl-PL",
   "background": {
     "scripts": ["background.js"]
   },

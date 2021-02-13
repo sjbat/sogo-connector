@@ -57,6 +57,7 @@ MANIFEST-pre:
 	@echo _locales/it-IT/messages.json >> $@
 	@echo _locales/nl-NL/messages.json >> $@
 	@echo _locales/pt-BR/messages.json >> $@
+	@echo _locales/pl-PL/messages.json >> $@
 
 rest: MANIFEST
 	@+make $(XPI_ARCHIVE)
